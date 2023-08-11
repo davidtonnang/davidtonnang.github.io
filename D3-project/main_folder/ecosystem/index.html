@@ -4,18 +4,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <select id="filterDropdownCompanyType">
-        <option value="">Type of Company</option>
-      </select>
-    </div>
-
-    <div>
-      <select id="filterDropdown">
-        <option value="">All Therapy Areas</option>
-      </select>
-    </div>
-
     <div class="slider-container">
       <label class="filter-label">Filter by employees:</label>
       <input
@@ -40,25 +28,7 @@
       <label for="publicCheckbox" id="publicLabel">Public</label>
     </div>
 
-    <svg id="graph">
-      <defs>
-        <pattern
-          id="test-image"
-          height="100%"
-          width="100%"
-          patternContentUnits="objectBoundingBox"
-        >
-          <image
-            height="1"
-            width="1"
-            preserveAspectRatio="none"
-            xmlns:xlink="https://www.azbioventurehub.com/content/dam/bioventurehub/images/logo/Antaros-Medical.jpg/jcr:content/renditions/cq5dam.web.320.Antaros-Medical.jpg"
-            xlink:href="Antaros-Medical.jpg"
-          ></image>
-        </pattern>
-      </defs>
-      <circle cx="500" cy="100" r="30" fill="url(#Antaros)"></circle>
-    </svg>
+    <svg id="graph"></svg>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="index.js"></script>
